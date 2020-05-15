@@ -1,0 +1,172 @@
+
+#title{
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top:100px;
+    margin-bottom: 100px;
+    color: #F886A8;
+}
+
+.content{
+    padding: 40px 10%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.buttons{
+    text-align: center;
+}
+.s-title1{
+    font-size: 25px;
+    font-weight: 500;
+    color: #F886A8;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-top: 30px;
+}
+.detail{
+    font-size: 17px;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-top: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+.s-title2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #F886A8;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-top: 30px;
+
+}
+img{
+    position: relative;
+    right: 120px;
+    bottom:-20px;
+    width: 250px;
+    height:250px;
+    grid-column: 1;
+    z-index: 10;
+  
+}
+.card{
+    position: relative;
+    left: 4%;
+    display: grid;
+    grid-template-columns: 60px auto  30px;
+    width: 40%;
+    margin-bottom: -160px;
+    padding-left: 30px;
+    transition: 0.3s;
+    
+}
+.card:hover{
+    background-color:#ff4343;
+    box-shadow: none;
+    color:white;
+}
+.name{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    top: 60px;
+    left: 50px;
+    position: relative;
+    grid-column: 2;
+    z-index: 5;
+    color:#ff4343;
+}
+.product{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    position: relative;
+    grid-column: 2;
+    top: -130px;
+    left: 50px;
+}
+.price{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    position: relative;
+    grid-column: 2;
+    top: -130px;
+    left: 121px;
+}
+.topnote{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color:#414141;
+    position: relative;
+    grid-column: 2;
+    margin-top: 5px;
+    top: -130px;
+    left: 50px;
+}
+.middlenote{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    position: relative;
+    grid-column: 2;
+    margin-top: 5px;
+    top: -130px;
+    left: 50px;
+}
+.basenote{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    position: relative;
+    grid-column: 2;
+    margin-top: 5px;
+    top: -130px;
+    left: 50px;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    background-color: #F886A8;
+    position: absolute;
+    right:-9.35%;
+    top:47%;
+    border-radius: 100%;
+}
+.line{
+    position: absolute;
+    width: 4px;
+    top: 170%;
+    left: 50%;
+    margin-left: -2px;
+    height: 171%;
+    background-color: #F886A8;
+
+}
+.card:nth-child(even){
+    margin-left: 60%;
+}
+.card:nth-child(even) .dot{
+    left: -35%;
+}
+#tothetop{
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+}
+@media(max-width:977px){
+    .dot,.line{
+        display:none;  
+    }
+    .card{
+        width: 80%;
+        margin-left: 17%;
+        margin-bottom: -100px;
+    }
+    .card:nth-child(even){
+        margin-left: 17%;
+       
+    }
+}
