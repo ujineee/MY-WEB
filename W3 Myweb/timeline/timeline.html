@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline</title>
+    <link rel="stylesheet" href="perfumestyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900;&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+        var pass = "ujineee2";
+        var getpass = prompt("비밀번호를 입력하세요.");
+    
+        if(ipass == getpass) {
+            alert("로그인 되었습니다.");
+        } else {
+            alert("아이디 혹은 비밀번호가 틀렸습니다.");
+        }
+    </script>
+   
+    <div id="title">당신에게 어울리는 <br>향수추천리스트</div>
+    <div class="buttons">
+        <button class="changebg" onclick="
+        document.querySelector('body').style.backgroundImage='url(orangewall.jpg)';
+        document.querySelector('body').style.backgroundSize='cover';
+        ">YELLOW</button>
+        <button class="changebg" onclick="
+        document.querySelector('body').style.backgroundImage='url(whitewall.jpg)';
+        document.querySelector('body').style.backgroundSize='cover';
+        ">WHITE</button>
+           
+    </div>
+        <div class="content">
+            <div class=s-title1>1. 오드 드 퍼퓸? 오드 드 뚜왈렛?</div>
+            <div class= detail>
+                향수에서 향이 차지하는 비율(=부항률)에 따라 나뉘며,
+                <br>부항률이 높을수록 향이 강하고 오래 지속되는 것!
+                <br>Eau de Cologne(오데 코롱): 부항률 2~3%
+                <br>Eau de Toilette(오 드 뚜왈렛): 부항률 4~8%
+                <br>Eau de parfum(오 드 퍼퓸): 부항률 8~15%
+            </div>
+           
+                <div class=s-title2>2.탑노트? 미들 노트?</div>
+                <div class= detail>
+                    향의 휘발도에 따라 구분되는 발향 단계를 뜻해
+                    <br>향수의 첫인상에 해당하는 <strong>TOP NOTE(탑노트)</strong>와
+                    <br>향수의 특징이라고 할 수 있는 <strong>MIDDLE NOTE(미들 노트)</strong>,
+                    <br>가장 마지막에 남는 잔향인 <strong>BASE NOTE(베이스 노트)</strong>로 나뉨!
+                   
+                </div>
+        </div>
+
+            <div class="card">
+                <img src="jomalone.png">
+                <div class="name">조말론 Jo Malone </div>
+                <div class="product">제품정보_ 와일드 블루벨 코롱</div>
+                <div class="price">100ml/ 190,000원</div>
+                <div class="topnote">탑노트_ 블루벨</div>
+                <div class="middlenote">미들 노트_ 감</div>
+                <div class="basenote">베이스 노트_ 화이트 머스크</div>
+                <div class="dot"></div>
+            </div>
+
+            <div class="card">
+                <img src="chanel.png" style="bottom:-55px;"
+                font-size: 35px;>
+                <div class="name">샤넬 CHANEL</div>
+                <div class="product">제품정보_ N°5 오 프르미에르 오 드 빠르뎅</div>
+                <div class="price">100ml/ 219,000원</div>
+                <div class="topnote">탑노트_ 일랑일랑, 알데하이드</div>
+                <div class="middlenote">미들 노트_ 장미,쟈스민</div>
+                <div class="basenote">베이스 노트_ 엠버,베티버,오크모스</div>
+                <div class="dot"></div>
+            </div>
+
+            <div class="card">
+                <img src="dior.png">
+                <div class="name">디올 Dior</div>
+                <div class="product">제품정보_ 미스 디올 블루밍 부케</div>
+                <div class="price">100ml/ 217,000원</div>
+                <div class="topnote">탑노트_ 칼라브리안</div>
+                <div class="middlenote">미들 노트_ 다마세나 로즈 앱솔루트-피오니(작약)</div>
+                <div class="basenote">베이스 노트_ 인도네시안 패츌리 에센스</div>
+                <div class="dot"></div>
+            </div>
+
+            <div class="card">
+                <img src="lacoste.png">
+                <div class="name">라코스테Lacoste</div>
+                <div class="product">제품정보_ 오 드 라코스테 L.12.12 블랑퓨어</div>
+                <div class="price">50ml/ 69,000원</div>
+                <div class="topnote">탑노트_ 로즈마리, 카다몸, 자몽</div>
+                <div class="middlenote">미들 노트_ 일랑일랑, 튜베로즈</div>
+                <div class="basenote">베이스 노트_ 시더우드, 가죽, 스웨이드</div>
+                <div class="dot"></div>
+            </div>
+           
+            
+            <div class="line"></div>  
+            <a href="#title"><button id="tothetop">▲Top</button></a>
+
+</body>
+</html>
